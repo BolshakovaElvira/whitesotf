@@ -32,7 +32,7 @@ public class JsonUtilities {
         String jsonText = "";
         jsonText += line;
         jsonText += "\n";
-        while( (line != null) && (!line.isEmpty()) ){
+        while ((line != null) && (!line.isEmpty())) {
 
             line = buffer.readLine();
             jsonText += line;

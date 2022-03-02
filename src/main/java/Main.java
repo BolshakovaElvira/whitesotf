@@ -16,7 +16,7 @@ public class Main {
         JSONArray data = JsonUtilities.readJsonFromUrl("https://raw.githubusercontent.com/thewhitesoft/student-2022-assignment/main/data.json");
         JSONArray replacements = JsonUtilities.readJsonFromFile("src/main/resources/replacements.json");
 
-        Map<String, String> clearedReplacements = new HashMap<>();// String ключ, String значение
+        Map<String, String> clearedReplacements = new HashMap<>();
 
         for (int i = 0; i < replacements.length(); ++i) {
             JSONObject object = replacements.getJSONObject(i);
